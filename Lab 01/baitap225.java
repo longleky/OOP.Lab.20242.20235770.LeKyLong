@@ -22,7 +22,7 @@ public class baitap225{
                          + "Difference: " + difference + "\n"
                          + "Product: " + product + "\n"
                          + divisionResult; 
-        JOptionPane.showMessageDialog(null,strNotification,"show two number", JOptionPane.INFORMATION_MESSAGE);
+        JOptionPane.showMessageDialog(null,strNotification,"quotient", JOptionPane.INFORMATION_MESSAGE);
         System.exit(0);
     }
 }
