@@ -1,1 +1,2 @@
-Điểm: 
+Điểm: 9
+Biểu đồ UC thừa và sai mối quan hệ UC
