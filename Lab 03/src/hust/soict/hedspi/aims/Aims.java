@@ -62,14 +62,12 @@ public class Aims {
         DigitalVideoDisc dvd4 = new DigitalVideoDisc("Avengers: Endgame", "Action", "Anthony Russo", 181, 19.99f);
         DigitalVideoDisc dvd5 = new DigitalVideoDisc("Inception", "Science Fiction", "Christopher Nolan", 148, 14.99f);
         DigitalVideoDisc dvd6 = new DigitalVideoDisc("The Lion King", "Animation", "Jon Favreau", 118, 12.99f);
-// Tạo một danh sách Book
         Book book1 = new Book("The Hobbit", "Fantasy", 10.99f);
         book1.addAuthor("J.R.R. Tolkien");
         Book book2 = new Book("Clean Code", "Programming", 30.99f);
         book2.addAuthor("Robert C. Martin");
         Book book3 = new Book("Harry Potter and the Sorcerer's Stone", "Fantasy", 9.99f);
         book3.addAuthor("J.K. Rowling");
-// Tạo một danh sách CD
         CompactDisc cd1 = new CompactDisc("Greatest Hits", "Pop", "John Doe", 15.99f, "Various Artists");
         cd1.addTrack(new Track("Hit Song 1", 210));
         cd1.addTrack(new Track("Hit Song 2", 190));
@@ -231,9 +229,9 @@ public class Aims {
                                 System.out.println("Sort by (title/cost):");
                                 String sort = scanner.nextLine();
                                 if (sort.equalsIgnoreCase("title")) {
-                                    Collections.sort(cart.itemsOrdered, COMPARE_BY_TITLE_COST);
+                                    Collections.sort(cart.getItemsOrdered(), COMPARE_BY_TITLE_COST);
                                 } else {
-                                    Collections.sort(cart.itemsOrdered, COMPARE_BY_COST_TITLE);
+                                    Collections.sort(cart.getItemsOrdered(), COMPARE_BY_COST_TITLE);
                                 }
                                 break;
                             case 3:
