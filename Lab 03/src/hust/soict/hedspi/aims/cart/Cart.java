@@ -5,7 +5,10 @@ import java.util.ArrayList;
 
 public class Cart {
     public static final int MAX_NUMBERS_ORDERED = 20;
-    public ArrayList<Media> itemsOrdered = new ArrayList<>();
+    private ArrayList<Media> itemsOrdered = new ArrayList<>();
+    public ArrayList<Media> getItemsOrdered() {
+        return itemsOrdered;
+    }
     public void addMedia(Media media){
         if(itemsOrdered.size() < MAX_NUMBERS_ORDERED){
             if(!itemsOrdered.contains(media)){
