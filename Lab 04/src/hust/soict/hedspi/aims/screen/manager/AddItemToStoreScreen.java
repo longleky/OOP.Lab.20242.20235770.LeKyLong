@@ -25,6 +25,4 @@ public abstract class AddItemToStoreScreen extends JFrame {
         panel.add(label);
         return panel;
     }
-
-    protected abstract void addItem();
 }

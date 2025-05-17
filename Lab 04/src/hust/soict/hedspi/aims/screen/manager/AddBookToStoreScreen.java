@@ -40,6 +40,4 @@ public class AddBookToStoreScreen extends AddItemToStoreScreen {
         add(bottom, BorderLayout.SOUTH);
         setVisible(true);
     }
-    @Override
-    protected void addItem() {}
 }

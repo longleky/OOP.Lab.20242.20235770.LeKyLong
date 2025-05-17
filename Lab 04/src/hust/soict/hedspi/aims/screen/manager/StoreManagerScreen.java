@@ -98,6 +98,7 @@ public class StoreManagerScreen extends JFrame {
         DigitalVideoDisc dvd2 = new DigitalVideoDisc("Star Wars","Science Fiction","George Lucas",87,24.95f);
         DigitalVideoDisc dvd3 = new DigitalVideoDisc("Aladin","Animation",18.99f);
         Book book1 = new Book("The Hobbit", "Fantasy", 10.99f);
+        DigitalVideoDisc dvd4 = new DigitalVideoDisc("Avengers: Endgame", "Action", "Anthony Russo", 181, 19.99f);
         book1.addAuthor("J.R.R. Tolkien");
         Book book2 = new Book("Clean Code", "Programming", 30.99f);
         book2.addAuthor("Robert C. Martin");
@@ -109,7 +110,7 @@ public class StoreManagerScreen extends JFrame {
         CompactDisc cd2 = new CompactDisc("Rock Collection", "Rock", "Jane Smith", 17.99f, "Rock Band");
         cd2.addTrack(new Track("Rock Anthem", 230));
         cd2.addTrack(new Track("Ballad", 240));
-        store.addMedia(dvd1,dvd2,dvd3, book1,book2,book3,cd1,cd2);
+        store.addMedia(dvd1,dvd2,dvd3, dvd4, book1,book2,book3,cd1,cd2);
         new StoreManagerScreen(store);
     }
 }
