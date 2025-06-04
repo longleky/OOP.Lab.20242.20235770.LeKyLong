@@ -1,1 +1,2 @@
-Điểm: 
+Điểm: 7
+Bđ UC chưa cập nhật, BĐ lớp sai mũi tên implements, nạp muộn
